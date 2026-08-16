@@ -21,3 +21,14 @@ try {
     console.log("ERROR", error.message);
     
 }
+
+
+//Using 'chalk' package for colored terminal output
+// ran npm install chalk@4
+
+const chalk = require('chalk')
+console.log(chalk.green("Success!"));
+console.log(chalk.red.bold("Error!"));
+console.log(chalk.blue.italic("hi, I am Kunal !"));
+
+
